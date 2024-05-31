@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-import {DB_NAME} from "../constants.js"
+import { DB_NAME } from "../constants.js";
+
 
 const dbConnecter = async () => {
     try {
@@ -11,4 +12,4 @@ const dbConnecter = async () => {
     }
 }
 
-export  {dbConnecter}
+export {dbConnecter}

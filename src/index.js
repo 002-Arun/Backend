@@ -1,5 +1,5 @@
 import dotenv from "dotenv"
-import {dbConnecter} from "./db/index.js";
+import {dbConnecter} from "./db/index.js"
 import {app} from './app.js'
 dotenv.config({
     path: './.env'
